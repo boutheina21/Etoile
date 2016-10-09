@@ -1,4 +1,4 @@
-
+import java.util.*;
 public class Etoile {
 	
 	
@@ -15,7 +15,9 @@ public class Etoile {
 	
 }
 	public static void main(String [] args){
-		int n=8; int espace = 0;
+		Scanner sc = new Scanner(System.in);
+		int n=sc.nextInt();
+		int espace = 0;
 		triangle(n,espace);
 	}
 }
