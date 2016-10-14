@@ -15,7 +15,7 @@ public class Etoile {
 	
 }
 	public static void main(String [] args){
-		int n=8; int espace = 0;
+		int n=8; int espace = 0;// utiliser class scanner pour l'utilisateur entre la valeur de n
 		triangle(n,espace);
 	}
 }
